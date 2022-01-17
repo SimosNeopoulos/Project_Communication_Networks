@@ -33,7 +33,7 @@ public class Account {
     /**
      * @param messageID The ID the message
      * @return The Message object with the messageID if it exists.
-     *         If it doesn't exist returns null
+     * If it doesn't exist returns null
      */
     public Message getMessage(int messageID) {
         try {
@@ -44,10 +44,9 @@ public class Account {
     }
 
     /**
-     *
      * @param messageID The ID the message
      * @return True if the Message with the messageID exists and was successfully removed from the List
-     *         False if the Message with the messageID doesn't exist or wasn't successfully removed from the List
+     * False if the Message with the messageID doesn't exist or wasn't successfully removed from the List
      */
     public boolean removeMessage(int messageID) {
         try {
